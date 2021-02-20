@@ -1,0 +1,38 @@
+/* setting basic */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    /* 1rem=10px */
+}
+
+body{
+    font-weight: 400;
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* Khai báo biến CSS tái sử dụng */
+:root{
+    --primaryColor: #00c8c8;
+    --textColor: #727272;
+    --bgDark: #333333;
+    --bgWhite: #ffffff;
+    --bgLight: #f8f8f8;
+    --titleColor: #222222;
+}
