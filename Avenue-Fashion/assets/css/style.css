@@ -39,6 +39,7 @@ html {
     height: 0.1rem;
 }
 
+
 /* ---------------------------- */
 
 /* --Header-- */
@@ -418,19 +419,24 @@ html {
     font-size: 1.3rem;
     font-weight: 600;
     text-transform: uppercase;
-    opacity: 0.6;
+    color: var(--textColor);
+}
+
+.product__title .sign {
+    font-size: 1rem;
+    vertical-align: top;
 }
 
 .product__down .product__desc {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 1.9rem 4rem 1.7rem;
     line-height: 2.5rem;
     height: 5rem;
     overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    display: flex;
+    flex-direction: column;
+    color: var(--textColor);
 }
 
 .product__down .product__icon {
@@ -549,7 +555,7 @@ html {
 .information {
     display: flex;
     flex-direction: column;
-    margin-right: 11.6rem;
+    margin-right: 9rem;
 }
 
 .title {
@@ -628,3 +634,27 @@ html {
 }
 
 /* Copyright */
+.footer__copyright {
+    height: 4.6rem;
+    max-width: 205rem;
+    background-color: var(--bgDark);
+    display: flex;
+}
+
+.copyright, 
+.designer, 
+.web__name {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 4.6rem;
+    color: var(--textColor);
+}
+
+.copyright {
+    margin-left: 44.1rem;
+    margin-right: 61.6rem;
+}
+
+.designer {
+    margin-right: 3.7rem;
+}
