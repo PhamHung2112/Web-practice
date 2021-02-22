@@ -48,7 +48,7 @@ console.log("6. unshift")
 console.log("7. splice");
 //Xóa: language.splice(index, số lượng phần tử muốn xóa)
 // language.splice(1, 1);
-// language.splice(1, 2);
+// console.log(language.splice(-4));
 //Chèn: language.splice(index, 0 , những phần tử muốn truyền vào);
 // language.splice(1, 0, 'Angular'); //thêm vào trước element có index=1(C#)
 // language.splice(1, 2, 'Angular'); //xóa element có index=a sau đó thay thế 'Angular' vào index=a
@@ -77,7 +77,7 @@ console.log("9. slice");
 // console.log(language2.slice(0)); //copy mảng
 // console.log(language2.slice(1)); //xóa từ phần tử 1 đến cuối mảng
 
-//console.log(language2.slice(-2, -1));
+// console.log(language2.slice(-2,0));
 // var language2 = [
 //     'Apple',
 //     //-2 'Chicken',
