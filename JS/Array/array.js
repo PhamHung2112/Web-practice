@@ -64,6 +64,12 @@ var language2 = [
 // console.log(language.concat(language2)); //2 mảng hợp nhất vào 1 mảng có tên là language
 // console.log(language2.concat(language)); //đảo thứ tự trên
 
+var language = [
+    'Javascript',
+    'C#',
+    'Java',
+    'Reactjs'
+];
 //9. slice: cắt phần tử và in ra phần tử bị cắt
 console.log("9. slice");
 // console.log(language.slice(vị trí bắt đầu: index, vị trí kết thúc))
