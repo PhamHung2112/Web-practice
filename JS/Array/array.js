@@ -91,14 +91,10 @@ var language2 = [
     //1 'Chicken',
     //2 'Beef'
 ]
-*/
 
-/*
 console.log(language2.slice(0)); //copy mảng
 console.log(language2.slice(1)); //xóa từ phần tử 1 đến cuối mảng
-*/
 
-/*
 console.log(language2.slice(-2,0));
 var language2 = [
     'Apple',
@@ -117,6 +113,7 @@ var language2 = [
     map();
     reduce();
 */
+
 /*
 var myArray = [
     {
@@ -162,6 +159,7 @@ console.log(course);
 */
 
 /*
+//Example
 var formValues = [
     { field: 'name', value: 'Sơn Đặng' },
     { field: 'age', value: 18 },
@@ -218,64 +216,3 @@ function findEqualValues(array1, array2) {
     return newArr;
 }
 */
-
-/*
-//map();
-console.log('map();');
-var myArray = [
-    {
-        id: 1,
-        name: 'PHP',
-        coin: 0
-    },
-    {
-        id: 2,
-        name: 'Javascript',
-        coin: 250
-    },
-    {
-        id: 3,
-        name: 'Java',
-        coin: 0
-    },
-    {
-        id: 4,
-        name: 'ReactJS',
-        coin: 300
-    },
-    {
-        id: 5,
-        name: 'Python',
-        coin: 200
-    }
-];
-
-function learnMapinJS(myArray) {
-    var fixed = myArray.map(function(items, index) {
-        return {
-            id: items.id,
-            name: `Khóa học ${items.name}`, 
-            coin: `${items.coin} coin`,
-            coinText: `Giá: ${items.coin}`,
-            index: index
-        };
-    });
-    console.log(fixed);
-}
-
-learnMapinJS(myArray);
-
-//Example
-var inputs = [NaN, 'hi', ''];
-
-function convertToBoolean(inputs) {
-    var convert = inputs.map(function(items) {
-        return Boolean(items);
-    });
-    console.log(convert);
-};
-
-convertToBoolean(inputs);
-*/
-
-//reduce()
