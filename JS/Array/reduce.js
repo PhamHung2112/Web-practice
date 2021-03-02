@@ -106,16 +106,33 @@ var arrCourse = topics.reduce(function (course, topic) {
 
 console.log(arrCourse);
 
+//Example 2
 let example = [[1,2,3],[4,5,6],[7,8,9]];
 function tinhTongSoLe(example) {
+    var total = 0;
     example.map(function (value) {
         var total = 0;
         value.filter(function (item) {
             total +=item %2 === 1 ? item : 0;
         });
-        return total;
     });
+    return total;
 }
 
-
 console.log(tinhTongSoLe(example));
+
+var check = example.map(function (value) {
+    var total = 0;
+    value.filter(function (item) {
+        total += item %2 === 1 ? item : 0;
+        console.log(item, total);
+    });
+    return total;
+});
+
+var check2 = check.reduce(function (totalArr, item) {
+    return totalArr +=item;
+}, 0);
+
+console.log(check);
+console.log(check2);
