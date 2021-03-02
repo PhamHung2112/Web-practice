@@ -111,7 +111,6 @@ let example = [[1,2,3],[4,5,6],[7,8,9]];
 function tinhTongSoLe(example) {
     var total = 0;
     example.map(function (value) {
-        var total = 0;
         value.filter(function (item) {
             total +=item %2 === 1 ? item : 0;
         });
@@ -125,7 +124,6 @@ var check = example.map(function (value) {
     var total = 0;
     value.filter(function (item) {
         total += item %2 === 1 ? item : 0;
-        console.log(item, total);
     });
     return total;
 });
