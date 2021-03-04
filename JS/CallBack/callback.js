@@ -12,6 +12,7 @@ var htmls = courses.map(function (course) {
 console.log(htmls.join(' '));
 */
 
+/*
 Array.prototype.map2 = function (callback) {
     var output = [], arrayLength = this.length;
     for(var i =0; i<arrayLength; i++) {
@@ -26,3 +27,5 @@ var htmls = courses.map2(function (course, index) {
 });
 
 console.log(htmls.join(' '));
+*/
+
