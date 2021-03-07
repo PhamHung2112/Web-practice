@@ -117,7 +117,7 @@ Array.prototype.some2 = function(myCallback) {
     if(typeof myCallback === 'function') {
         for(var i=0; i<arrLength; i++) {
             if(myCallback(this[i], i) === false) 
-            return false;
+                return false;
         }
         return true;
     } else {
@@ -138,7 +138,7 @@ Array.prototype.some2 = function(myCallback) {
     if(typeof myCallback === 'function') {
         for(var i=0; i<arrLength; i++) {
             if(myCallback(this[i], i)) 
-            return true;
+                return true;
         }
         return false;
     } else {
