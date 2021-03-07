@@ -116,17 +116,17 @@ Array.prototype.some2 = function(myCallback) {
     var arrLength = this.length;
     if(typeof myCallback === 'function') {
         for(var i=0; i<arrLength; i++) {
-            if(myCallback(this[i], i) === false) 
-                return false;
+            if(myCallback(this[i], i)) 
+                return true;
         }
-        return true;
+        return false;
     } else {
         return `${myCallback} is not a function`; 
     }
 }
 
 var check5 = languages2.some2(function(language2) {
-    return language2.coin > 0;
+    return language2.name === 'PHP';
 });
 
 console.log(check5);
@@ -137,10 +137,10 @@ Array.prototype.some2 = function(myCallback) {
     var arrLength = this.length;
     if(typeof myCallback === 'function') {
         for(var i=0; i<arrLength; i++) {
-            if(myCallback(this[i], i)) 
-                return true;
+            if(myCallback(this[i], i) === false)  
+                return false;
         }
-        return false;
+        return true;
     } else {
         return `${myCallback} is not a function`; 
     }
