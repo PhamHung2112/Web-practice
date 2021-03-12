@@ -47,7 +47,8 @@ Output:
 */
 
 /* 
-Bài 2: Cho trước hàm checkPositiveNumbers có tham số numbers sẽ nhận một mảng gồm các phần tử là những số bất kì. Hàm này được tạo ra với mục đích kiểm tra toàn bộ các chữ số trong mảng numbers có phải là số dương hay không.
+Bài 2: Cho trước hàm checkPositiveNumbers có tham số numbers sẽ nhận một mảng gồm các phần tử là những số bất kì. 
+Hàm này được tạo ra với mục đích kiểm tra toàn bộ các chữ số trong mảng numbers có phải là số dương hay không.
 
 Yêu cầu
 1.Nếu toàn bộ phần tử trong mảng numbers là số dương hàm sẽ trả về true
@@ -141,7 +142,8 @@ Tham số thứ hai có tên strings sẽ là một array chứa các chuỗi b�
 
 ['hi', 'abc', 'chuỗi', '123']
 Yêu cầu
-Trong hàm cho trước, hãy trả về một array mới gồm các phần tử trong array strings có chứa giá trị của biến keyword. Trường hợp không có phần tử phù hợp trả về mảng rỗng.
+Trong hàm cho trước, hãy trả về một array mới gồm các phần tử trong array strings có chứa giá trị của biến keyword. 
+Trường hợp không có phần tử phù hợp trả về mảng rỗng.
 Ví dụ:
 1.Input: PHP, ['Javascript', 'PHP'] - Output: ['PHP']
 2.Input: PHP, ['Javascript', 'PHP', 'Học PHP'] - Output: ['PHP', 'Học PHP']

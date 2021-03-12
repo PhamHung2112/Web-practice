@@ -30,7 +30,8 @@ a và h sẽ được truyền các giá trị số nguyên bất kì từ hệ 
 
 /* 
 Bài 5: Viết hàm kiểm tra một chuỗi có nằm trong một chuỗi khác hay không. 
-Đặt tên hàm này là stringInString, hàm có hai tham số lần lượt là needle (chuỗi muốn tìm) và haystack (chuỗi gốc, giá trị của needle sẽ được tìm xem có tồn tại trong haystack hay không)
+Đặt tên hàm này là stringInString, hàm có hai tham số lần lượt là needle (chuỗi muốn tìm) và 
+haystack (chuỗi gốc, giá trị của needle sẽ được tìm xem có tồn tại trong haystack hay không)
 Yêu cầu:
 1.Tạo hàm stringInString theo mô tả trên
 2.Nếu needle được tìm thấy trong haystack hàm sẽ trả về true
